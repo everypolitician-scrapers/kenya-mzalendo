@@ -38,9 +38,13 @@ def scrape_person(url)
   sidebar = noko.css('div.constituency-party')
   area = sidebar.at_xpath('.//a[contains(@href,"/place/")]')
 
-  party_node = sidebar.at_xpath('.//a[contains(@href,"/organisation/")]')
+  party_node = sidebar.xpath('.//a[contains(@href,"/organisation/")]').find { |n|
+    org_url = URI.join(url, n.attr('href')).to_s
+    noko_org = noko_for(org_url)
+    type = noko_org.css('div.object-titles p').text == 'Political Party'
+  }
   party_info = party_node ? party_node.text.strip : 'Independent (IND)'
-  party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, '']
+  party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, nil]
 
   contacts = noko.css('.contact-details')
 
