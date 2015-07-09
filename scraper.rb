@@ -1,0 +1,69 @@
+#!/bin/env ruby
+# encoding: utf-8
+
+require 'scraperwiki'
+require 'nokogiri'
+require 'open-uri'
+require 'cgi'
+require 'json'
+require 'date'
+
+require 'pry'
+require 'open-uri/cached'
+OpenURI::Cache.cache_path = '.cache'
+
+def noko_for(url)
+  Nokogiri::HTML(open(url).read) 
+end
+
+def date_from(str)
+  return if str.to_s.empty?
+  return str if str[/^(\d{4})$/]
+  Date.parse(str).to_s
+end
+
+def scrape_list(url)
+  puts url
+  noko = noko_for(url)
+  noko.css('.position-listing a[href*="/person/"]/@href').each do |p|
+    scrape_person(URI.join url, p.text)
+  end
+  next_page = noko.css('.pagination a.next/@href').text
+  scrape_list(URI.join url, next_page) unless next_page.empty?
+end
+
+def scrape_person(url)
+  noko = noko_for(url)
+
+  sidebar = noko.css('div.constituency-party')
+  area = sidebar.at_xpath('.//a[contains(@href,"/place/")]')
+
+  party_node = sidebar.at_xpath('.//a[contains(@href,"/organisation/")]')
+  party_info = party_node ? party_node.text.strip : 'Independent (IND)'
+  party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, '']
+
+  contacts = noko.css('.contact-details')
+
+  data = { 
+    id: url.to_s[/person\/(.*)\//, 1],
+    name: noko.css('div.object-titles h1').text.gsub(/[[:space:]]+/, ' ').strip,
+    party: party,
+    party_id: party_id,
+    area: area ? area.text.strip : '',
+    email: contacts.css('a[href*="mailto:"]/@href').text.sub('mailto:',''),
+    birth_date: date_from(contacts.xpath('.//h3[contains(.,"Born")]/following-sibling::p[1]').text),
+    term: '11',
+    source: url.to_s,
+  }
+  ScraperWiki.save_sqlite([:name, :term], data)
+end
+
+term = {
+  id: '11',
+  name: '11th Parliament',
+  start_date: '2013-03-28',
+  source: 'https://en.wikipedia.org/wiki/11th_Parliament_of_Kenya',
+}
+ScraperWiki.save_sqlite([:id], term, 'terms')
+
+scrape_list('http://info.mzalendo.com/position/member-national-assembly/')
