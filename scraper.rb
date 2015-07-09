@@ -53,8 +53,10 @@ def scrape_person(url)
     email: contacts.css('a[href*="mailto:"]/@href').text.sub('mailto:',''),
     birth_date: date_from(contacts.xpath('.//h3[contains(.,"Born")]/following-sibling::p[1]').text),
     term: '11',
+    image: noko.css('.profile-pic img/@src').text,
     source: url.to_s,
   }
+  data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
   ScraperWiki.save_sqlite([:name, :term], data)
 end
 
