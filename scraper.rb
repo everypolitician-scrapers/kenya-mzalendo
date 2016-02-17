@@ -54,7 +54,7 @@ def scrape_person(url)
     party: party,
     party_id: party_id,
     area: area ? area.text.strip : '',
-    email: contacts.css('a[href*="mailto:"]/@href').text.sub('mailto:',''),
+    email: contacts.css('a[href*="mailto:"]/@href').map(&:text).first.to_s.sub('mailto:',''),
     birth_date: date_from(contacts.xpath('.//h3[contains(.,"Born")]/following-sibling::p[1]').text),
     term: '11',
     image: noko.css('.profile-pic img/@src').text,
