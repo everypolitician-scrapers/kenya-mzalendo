@@ -56,6 +56,8 @@ def scrape_person(url)
     area: area ? area.text.strip : '',
     email: contacts.css('a[href*="mailto:"]/@href').map(&:text).first.to_s.sub('mailto:',''),
     birth_date: date_from(contacts.xpath('.//h3[contains(.,"Born")]/following-sibling::p[1]').text),
+    facebook: contacts.css('a[href*="facebook"]/@href').map(&:text).first.to_s,
+    twitter: contacts.css('a[href*="twitter"]/@href').map(&:text).first.to_s,
     term: '11',
     image: noko.css('.profile-pic img/@src').text,
     source: url.to_s,
