@@ -48,7 +48,9 @@ def scrape_person(url)
 
   contacts = noko.css('.contact-details')
 
-  data = { 
+  alt_name = contacts.xpath('.//h3[contains(.,"Full name")]/following-sibling::p[1]').text rescue nil
+
+  data = {
     id: url.to_s[/person\/(.*)\//, 1],
     name: noko.css('div.object-titles h1').text.gsub(/[[:space:]]+/, ' ').strip,
     party: party,
@@ -64,6 +66,7 @@ def scrape_person(url)
     identifier__mzalendo: noko.at_css('meta[name="pombola-person-id"]/@content').text,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
+  data[:alternate_names] = alt_name unless alt_name.to_s.empty?
   ScraperWiki.save_sqlite([:name, :term], data)
 end
 
