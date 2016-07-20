@@ -32,6 +32,16 @@ def scrape_list(url)
   scrape_list(URI.join url, next_page) unless next_page.empty?
 end
 
+def scrape_experience(url)
+  noko = noko_for(url)
+
+  experience = noko.xpath('.//section/h3[contains(.,"Previous Political Positions")]/following-sibling::ul[1]')
+  member_element = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]')
+  date_and_area = member_element.xpath('.//following-sibling::p[1]')
+  start_text, end_text = date_and_area.text.match(/(.*)\s*→\s*(.*)/).captures rescue start_text, end_text = ['', '']
+  return date_from(start_text), date_from(end_text), date_and_area.css('a')
+end
+
 def scrape_person(url)
   noko = noko_for(url)
 
@@ -46,9 +56,33 @@ def scrape_person(url)
   party_info = party_node ? party_node.text.strip : 'Independent (IND)'
   party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, nil]
 
+  experience = noko.css('div.person-detail-experience')
+  member_element = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]')
+  if member_element.size > 0
+    start_text = member_element.xpath('.//following-sibling::p[@class="position-date" and contains(.,"Started")][1]').text rescue nil
+    start_date = date_from(start_text.gsub('Started ', ''))
+    end_date = ''
+  else
+    experience_link = experience.xpath('.//a[contains(.,"See full experience")]').attr('href') rescue nil
+    if experience_link
+      experience_link = URI.join(url, experience_link)
+      start_date, end_date, area = scrape_experience(experience_link)
+    end
+  end
+
+  subtitle = member_element.xpath('.//following-sibling::p[@class="position-subtitle"][1]').text rescue nil
+  if subtitle.match('Women')
+    rep_type = "Women's Representative"
+  elsif subtitle.match('Nominated')
+    rep_type = "Nominated Representative"
+  else
+    rep_type = ''
+  end
   contacts = noko.css('.contact-details')
 
-  data = { 
+  alt_name = contacts.xpath('.//h3[contains(.,"Full name")]/following-sibling::p[1]').text rescue nil
+
+  data = {
     id: url.to_s[/person\/(.*)\//, 1],
     name: noko.css('div.object-titles h1').text.gsub(/[[:space:]]+/, ' ').strip,
     party: party,
@@ -61,9 +95,13 @@ def scrape_person(url)
     term: '11',
     image: noko.css('.profile-pic img/@src').text,
     source: url.to_s,
+    start_date: start_date,
+    end_date: end_date,
     identifier__mzalendo: noko.at_css('meta[name="pombola-person-id"]/@content').text,
+    legislative_membership_type: rep_type,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
+  data[:alternate_names] = alt_name unless alt_name.to_s.empty?
   ScraperWiki.save_sqlite([:name, :term], data)
 end
 
@@ -75,4 +113,4 @@ term = {
 }
 ScraperWiki.save_sqlite([:id], term, 'terms')
 
-scrape_list('http://info.mzalendo.com/position/member-national-assembly/')
+scrape_list('http://info.mzalendo.com/position/member-national-assembly/governmental/parliament/?session=na2013')
