@@ -46,6 +46,10 @@ def scrape_person(url)
   party_info = party_node ? party_node.text.strip : 'Independent (IND)'
   party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, nil]
 
+  experience = noko.css('div.person-detail-experience')
+  start_text = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]/following-sibling::p[1][contains(.,"Started")]').text rescue nil
+  start_date = date_from(start_text.gsub('Started ', ''))
+
   contacts = noko.css('.contact-details')
 
   alt_name = contacts.xpath('.//h3[contains(.,"Full name")]/following-sibling::p[1]').text rescue nil
@@ -63,6 +67,7 @@ def scrape_person(url)
     term: '11',
     image: noko.css('.profile-pic img/@src').text,
     source: url.to_s,
+    start_date: start_date,
     identifier__mzalendo: noko.at_css('meta[name="pombola-person-id"]/@content').text,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
