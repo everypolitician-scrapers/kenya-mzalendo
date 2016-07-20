@@ -70,6 +70,14 @@ def scrape_person(url)
     end
   end
 
+  subtitle = member_element.xpath('.//following-sibling::p[@class="position-subtitle"][1]').text rescue nil
+  if subtitle.match('Women')
+    rep_type = "Women's Representative"
+  elsif subtitle.match('Nominated')
+    rep_type = "Nominated Representative"
+  else
+    rep_type = ''
+  end
   contacts = noko.css('.contact-details')
 
   alt_name = contacts.xpath('.//h3[contains(.,"Full name")]/following-sibling::p[1]').text rescue nil
@@ -90,6 +98,7 @@ def scrape_person(url)
     start_date: start_date,
     end_date: end_date,
     identifier__mzalendo: noko.at_css('meta[name="pombola-person-id"]/@content').text,
+    legislative_membership_type: rep_type,
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
   data[:alternate_names] = alt_name unless alt_name.to_s.empty?
