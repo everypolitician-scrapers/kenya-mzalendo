@@ -1,0 +1,28 @@
+---
+expires: Thu, 21 Jul 2016 17:48:46 GMT
+vary: Cookie,Accept-Encoding
+cache-control: max-age=1200
+last-modified: Thu, 21 Jul 2016 17:28:46 GMT
+content-type: text/html; charset=utf-8
+x-url: /person/leonard-kipkosgei-sang/
+content-length: '6991'
+accept-ranges: bytes
+date: Thu, 21 Jul 2016 17:28:46 GMT
+age: '0'
+connection: keep-alive
+:status:
+- '200'
+- OK
+:content_type: text/html
+:base_uri: !ruby/object:URI::HTTP
+  scheme: http
+  user: 
+  password: 
+  host: info.mzalendo.com
+  port: 80
+  path: /person/leonard-kipkosgei-sang/
+  query: 
+  opaque: 
+  registry: 
+  fragment: 
+  parser: 
