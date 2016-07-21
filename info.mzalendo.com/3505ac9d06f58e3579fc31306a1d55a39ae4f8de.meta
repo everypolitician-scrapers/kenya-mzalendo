@@ -1,0 +1,28 @@
+---
+expires: Thu, 21 Jul 2016 17:49:28 GMT
+vary: Cookie,Accept-Encoding
+cache-control: max-age=1200
+last-modified: Thu, 21 Jul 2016 17:29:28 GMT
+content-type: text/html; charset=utf-8
+x-url: /person/millie-odhiambo-mabona/
+content-length: '7390'
+accept-ranges: bytes
+date: Thu, 21 Jul 2016 17:46:57 GMT
+age: '1049'
+connection: keep-alive
+:status:
+- '200'
+- OK
+:content_type: text/html
+:base_uri: !ruby/object:URI::HTTP
+  scheme: http
+  user: 
+  password: 
+  host: info.mzalendo.com
+  port: 80
+  path: /person/millie-odhiambo-mabona/
+  query: 
+  opaque: 
+  registry: 
+  fragment: 
+  parser: 
