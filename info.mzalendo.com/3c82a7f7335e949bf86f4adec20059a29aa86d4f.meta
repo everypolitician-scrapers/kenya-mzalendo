@@ -1,0 +1,28 @@
+---
+expires: Thu, 21 Jul 2016 18:04:14 GMT
+vary: Cookie,Accept-Encoding
+cache-control: max-age=1200
+last-modified: Thu, 21 Jul 2016 17:44:14 GMT
+content-type: text/html; charset=utf-8
+x-url: /person/harrison-kombe/
+content-length: '6976'
+accept-ranges: bytes
+date: Thu, 21 Jul 2016 17:44:14 GMT
+age: '0'
+connection: keep-alive
+:status:
+- '200'
+- OK
+:content_type: text/html
+:base_uri: !ruby/object:URI::HTTP
+  scheme: http
+  user: 
+  password: 
+  host: info.mzalendo.com
+  port: 80
+  path: /person/harrison-kombe/
+  query: 
+  opaque: 
+  registry: 
+  fragment: 
+  parser: 
