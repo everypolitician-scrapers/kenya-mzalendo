@@ -1,0 +1,28 @@
+---
+expires: Thu, 21 Jul 2016 17:45:16 GMT
+vary: Cookie,Accept-Encoding
+cache-control: max-age=1200
+last-modified: Thu, 21 Jul 2016 17:25:16 GMT
+content-type: text/html; charset=utf-8
+x-url: /person/omar-mwinyi-shimbwa/
+content-length: '6854'
+accept-ranges: bytes
+date: Thu, 21 Jul 2016 17:29:21 GMT
+age: '245'
+connection: keep-alive
+:status:
+- '200'
+- OK
+:content_type: text/html
+:base_uri: !ruby/object:URI::HTTP
+  scheme: http
+  user: 
+  password: 
+  host: info.mzalendo.com
+  port: 80
+  path: /person/omar-mwinyi-shimbwa/
+  query: 
+  opaque: 
+  registry: 
+  fragment: 
+  parser: 
