@@ -1,0 +1,28 @@
+---
+expires: Thu, 21 Jul 2016 17:44:55 GMT
+vary: Cookie,Accept-Encoding
+cache-control: max-age=1200
+last-modified: Thu, 21 Jul 2016 17:24:55 GMT
+content-type: text/html; charset=utf-8
+x-url: /person/mwalimu-mwahima/
+content-length: '7245'
+accept-ranges: bytes
+date: Thu, 21 Jul 2016 17:43:06 GMT
+age: '1091'
+connection: keep-alive
+:status:
+- '200'
+- OK
+:content_type: text/html
+:base_uri: !ruby/object:URI::HTTP
+  scheme: http
+  user: 
+  password: 
+  host: info.mzalendo.com
+  port: 80
+  path: /person/mwalimu-mwahima/
+  query: 
+  opaque: 
+  registry: 
+  fragment: 
+  parser: 
