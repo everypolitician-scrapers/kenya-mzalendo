@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 31 Jul 2016 11:53:53 GMT
+    - Tue, 02 Aug 2016 09:37:07 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 31 Jul 2016 11:33:53 GMT
+    - Tue, 02 Aug 2016 09:17:07 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/cyprian-kubai-iringo/
     Content-Length:
-    - '6822'
+    - '6857'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 31 Jul 2016 11:33:53 GMT
+    - Tue, 02 Aug 2016 09:35:53 GMT
     Age:
-    - '0'
+    - '1126'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 31 Jul 2016 11:33:53 GMT
+recorded_at: Tue, 02 Aug 2016 09:35:54 GMT
