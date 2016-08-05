@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 04 Aug 2016 19:03:36 GMT
+    - Fri, 05 Aug 2016 14:49:27 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 04 Aug 2016 18:43:36 GMT
+    - Fri, 05 Aug 2016 14:29:27 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/gladys-atieno-nyasuna/
     Content-Length:
-    - '7183'
+    - '7182'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 04 Aug 2016 18:53:29 GMT
+    - Fri, 05 Aug 2016 14:29:27 GMT
     Age:
-    - '593'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 04 Aug 2016 18:53:30 GMT
+recorded_at: Fri, 05 Aug 2016 14:29:28 GMT
