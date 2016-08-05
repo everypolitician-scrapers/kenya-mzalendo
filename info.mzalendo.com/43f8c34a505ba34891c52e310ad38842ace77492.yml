@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 04 Aug 2016 20:18:18 GMT
+    - Fri, 05 Aug 2016 15:55:29 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 04 Aug 2016 19:58:18 GMT
+    - Fri, 05 Aug 2016 15:35:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /position/member-national-assembly/governmental/parliament/?page=11&session=na2013
     Content-Length:
-    - '11585'
+    - '11584'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 04 Aug 2016 19:58:18 GMT
+    - Fri, 05 Aug 2016 15:35:29 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 04 Aug 2016 19:58:19 GMT
+recorded_at: Fri, 05 Aug 2016 15:35:30 GMT
