@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 09 Aug 2016 03:36:30 GMT
+    - Tue, 09 Aug 2016 18:00:37 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 09 Aug 2016 03:16:30 GMT
+    - Tue, 09 Aug 2016 17:40:37 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/john-oroo-oyioka/experience/
     Content-Length:
-    - '6378'
+    - '6376'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 09 Aug 2016 03:16:30 GMT
+    - Tue, 09 Aug 2016 17:40:37 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 09 Aug 2016 03:16:30 GMT
+recorded_at: Tue, 09 Aug 2016 17:40:37 GMT
