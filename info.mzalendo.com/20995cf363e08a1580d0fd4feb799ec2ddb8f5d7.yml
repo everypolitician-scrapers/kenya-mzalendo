@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 07 Aug 2016 05:03:52 GMT
+    - Thu, 11 Aug 2016 00:31:59 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 07 Aug 2016 04:43:52 GMT
+    - Thu, 11 Aug 2016 00:11:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/oscar-kipchumba-sudi/
     Content-Length:
-    - '6554'
+    - '6553'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 07 Aug 2016 04:43:52 GMT
+    - Thu, 11 Aug 2016 00:11:59 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 07 Aug 2016 04:43:53 GMT
+recorded_at: Thu, 11 Aug 2016 00:11:59 GMT
