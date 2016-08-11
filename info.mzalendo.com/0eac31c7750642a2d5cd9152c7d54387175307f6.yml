@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 07 Aug 2016 05:29:13 GMT
+    - Thu, 11 Aug 2016 00:33:02 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 07 Aug 2016 05:09:13 GMT
+    - Thu, 11 Aug 2016 00:13:02 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/annah-nyokabi-gathecha/
     Content-Length:
-    - '6992'
+    - '6985'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 07 Aug 2016 05:09:13 GMT
+    - Thu, 11 Aug 2016 00:25:48 GMT
     Age:
-    - '0'
+    - '766'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 07 Aug 2016 05:09:14 GMT
+recorded_at: Thu, 11 Aug 2016 00:25:48 GMT
