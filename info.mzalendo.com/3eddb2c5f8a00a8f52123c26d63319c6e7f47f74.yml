@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 07 Aug 2016 05:11:28 GMT
+    - Thu, 11 Aug 2016 00:35:54 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 07 Aug 2016 04:51:28 GMT
+    - Thu, 11 Aug 2016 00:15:54 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/robert-mbui/
     Content-Length:
-    - '6840'
+    - '6843'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 07 Aug 2016 04:51:28 GMT
+    - Thu, 11 Aug 2016 00:15:54 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 07 Aug 2016 04:51:29 GMT
+recorded_at: Thu, 11 Aug 2016 00:15:55 GMT
