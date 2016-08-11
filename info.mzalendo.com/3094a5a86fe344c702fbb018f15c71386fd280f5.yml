@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 07 Aug 2016 07:58:07 GMT
+    - Thu, 11 Aug 2016 02:14:49 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 07 Aug 2016 07:38:07 GMT
+    - Thu, 11 Aug 2016 01:54:49 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/benson-mutura-kangara/
     Content-Length:
-    - '6740'
+    - '6781'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 07 Aug 2016 07:38:07 GMT
+    - Thu, 11 Aug 2016 01:54:49 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 07 Aug 2016 07:38:09 GMT
+recorded_at: Thu, 11 Aug 2016 01:54:50 GMT
