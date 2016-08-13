@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 11 Aug 2016 11:13:38 GMT
+    - Sat, 13 Aug 2016 07:48:38 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 11 Aug 2016 10:53:38 GMT
+    - Sat, 13 Aug 2016 07:28:38 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/jude-l-kangethe-njomo/
     Content-Length:
-    - '6808'
+    - '6825'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 11 Aug 2016 10:53:38 GMT
+    - Sat, 13 Aug 2016 07:30:27 GMT
     Age:
-    - '0'
+    - '109'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 11 Aug 2016 10:53:39 GMT
+recorded_at: Sat, 13 Aug 2016 07:30:28 GMT
