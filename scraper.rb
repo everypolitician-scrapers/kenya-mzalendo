@@ -14,8 +14,10 @@ OpenURI::Cache.cache_path = '.cache'
 
 require 'scraped_page_archive/open-uri'
 
+ARCHIVE = ScrapedPageArchive.new
+
 def noko_for(url)
-  Nokogiri::HTML(open(url).read) 
+  Nokogiri::HTML(ARCHIVE.open_from_archive(url).read)
 end
 
 def date_from(str)
