@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 16 Aug 2016 01:09:20 GMT
+    - Wed, 17 Aug 2016 21:53:01 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 16 Aug 2016 00:49:20 GMT
+    - Wed, 17 Aug 2016 21:33:01 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/gideon-ochanda-ogolla/
     Content-Length:
-    - '6760'
+    - '6771'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 16 Aug 2016 00:49:20 GMT
+    - Wed, 17 Aug 2016 21:33:01 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 16 Aug 2016 00:49:20 GMT
+recorded_at: Wed, 17 Aug 2016 21:33:02 GMT
