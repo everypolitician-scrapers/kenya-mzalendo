@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 24 Aug 2016 23:15:31 GMT
+    - Fri, 26 Aug 2016 20:21:15 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 24 Aug 2016 22:55:31 GMT
+    - Fri, 26 Aug 2016 20:01:15 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/sammy-mwaita/
     Content-Length:
-    - '6935'
+    - '6873'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 24 Aug 2016 22:55:31 GMT
+    - Fri, 26 Aug 2016 20:01:15 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 24 Aug 2016 22:55:31 GMT
+recorded_at: Fri, 26 Aug 2016 20:01:15 GMT
