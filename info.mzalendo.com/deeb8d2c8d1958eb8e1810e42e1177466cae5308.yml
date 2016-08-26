@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 25 Aug 2016 03:01:31 GMT
+    - Fri, 26 Aug 2016 23:28:27 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 25 Aug 2016 02:41:31 GMT
+    - Fri, 26 Aug 2016 23:08:27 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/roba-duba-bonaya/
     Content-Length:
-    - '6841'
+    - '6842'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 25 Aug 2016 02:41:31 GMT
+    - Fri, 26 Aug 2016 23:08:27 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 25 Aug 2016 02:41:32 GMT
+recorded_at: Fri, 26 Aug 2016 23:08:28 GMT
