@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 24 Aug 2016 23:27:24 GMT
+    - Fri, 26 Aug 2016 20:30:58 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 24 Aug 2016 23:07:24 GMT
+    - Fri, 26 Aug 2016 20:10:58 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/benard-kipkirui-bett/
     Content-Length:
-    - '6829'
+    - '6830'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 24 Aug 2016 23:07:24 GMT
+    - Fri, 26 Aug 2016 20:10:58 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 24 Aug 2016 23:07:24 GMT
+recorded_at: Fri, 26 Aug 2016 20:10:58 GMT
