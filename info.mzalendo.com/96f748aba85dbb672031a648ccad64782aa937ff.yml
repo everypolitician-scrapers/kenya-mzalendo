@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 25 Aug 2016 00:42:13 GMT
+    - Fri, 26 Aug 2016 21:32:53 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 25 Aug 2016 00:22:13 GMT
+    - Fri, 26 Aug 2016 21:12:53 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/richard-makenga-katemi/
     Content-Length:
-    - '6896'
+    - '6884'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 25 Aug 2016 00:22:13 GMT
+    - Fri, 26 Aug 2016 21:12:53 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 25 Aug 2016 00:22:13 GMT
+recorded_at: Fri, 26 Aug 2016 21:12:53 GMT
