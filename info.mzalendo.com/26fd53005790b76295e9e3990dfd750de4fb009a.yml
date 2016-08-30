@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 30 Aug 2016 01:18:47 GMT
+    - Tue, 30 Aug 2016 13:52:27 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 30 Aug 2016 00:58:47 GMT
+    - Tue, 30 Aug 2016 13:32:27 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/alois-musa-lentoimaga/
     Content-Length:
-    - '6823'
+    - '6802'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 30 Aug 2016 00:58:47 GMT
+    - Tue, 30 Aug 2016 13:32:27 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 30 Aug 2016 00:58:47 GMT
+recorded_at: Tue, 30 Aug 2016 13:32:27 GMT
