@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Mon, 29 Aug 2016 21:50:17 GMT
+    - Tue, 30 Aug 2016 10:23:59 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Mon, 29 Aug 2016 21:30:17 GMT
+    - Tue, 30 Aug 2016 10:03:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/susan-kipketer-chebet/
     Content-Length:
-    - '6716'
+    - '6641'
     Accept-Ranges:
     - bytes
     Date:
-    - Mon, 29 Aug 2016 21:30:17 GMT
+    - Tue, 30 Aug 2016 10:03:59 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 29 Aug 2016 21:30:17 GMT
+recorded_at: Tue, 30 Aug 2016 10:03:59 GMT
