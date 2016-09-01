@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 31 Aug 2016 05:16:31 GMT
+    - Thu, 01 Sep 2016 12:17:26 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 31 Aug 2016 04:56:31 GMT
+    - Thu, 01 Sep 2016 11:57:26 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/benjamin-washiali/
     Content-Length:
-    - '6986'
+    - '6969'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 31 Aug 2016 04:56:31 GMT
+    - Thu, 01 Sep 2016 12:11:33 GMT
     Age:
-    - '0'
+    - '846'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 31 Aug 2016 04:56:31 GMT
+recorded_at: Thu, 01 Sep 2016 12:11:33 GMT
