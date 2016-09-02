@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 01 Sep 2016 13:22:17 GMT
+    - Fri, 02 Sep 2016 22:03:17 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 01 Sep 2016 13:02:17 GMT
+    - Fri, 02 Sep 2016 21:43:17 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/james-nyikal/
     Content-Length:
-    - '6985'
+    - '6945'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 01 Sep 2016 13:02:17 GMT
+    - Fri, 02 Sep 2016 21:45:58 GMT
     Age:
-    - '0'
+    - '161'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Sep 2016 13:02:17 GMT
+recorded_at: Fri, 02 Sep 2016 21:45:58 GMT
