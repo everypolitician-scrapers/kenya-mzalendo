@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 01 Sep 2016 10:44:02 GMT
+    - Fri, 02 Sep 2016 19:13:19 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 01 Sep 2016 10:24:02 GMT
+    - Fri, 02 Sep 2016 18:53:19 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/rachel-ameso-amolo/
     Content-Length:
-    - '6648'
+    - '6705'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 01 Sep 2016 10:24:02 GMT
+    - Fri, 02 Sep 2016 19:02:51 GMT
     Age:
-    - '0'
+    - '572'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Sep 2016 10:24:02 GMT
+recorded_at: Fri, 02 Sep 2016 19:02:51 GMT
