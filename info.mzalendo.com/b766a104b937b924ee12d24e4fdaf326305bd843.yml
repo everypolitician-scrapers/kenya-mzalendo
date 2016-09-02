@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 01 Sep 2016 10:57:57 GMT
+    - Fri, 02 Sep 2016 19:42:20 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 01 Sep 2016 10:37:57 GMT
+    - Fri, 02 Sep 2016 19:22:20 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/jessica-mbalu/
     Content-Length:
-    - '6777'
+    - '6700'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 01 Sep 2016 10:43:14 GMT
+    - Fri, 02 Sep 2016 19:22:20 GMT
     Age:
-    - '317'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Sep 2016 10:43:14 GMT
+recorded_at: Fri, 02 Sep 2016 19:22:21 GMT
