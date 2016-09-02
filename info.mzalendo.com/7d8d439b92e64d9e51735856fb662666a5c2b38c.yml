@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 01 Sep 2016 12:48:01 GMT
+    - Fri, 02 Sep 2016 21:19:10 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 01 Sep 2016 12:28:01 GMT
+    - Fri, 02 Sep 2016 20:59:10 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/korei-ole-lemein/
     Content-Length:
-    - '7153'
+    - '7200'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 01 Sep 2016 12:28:01 GMT
+    - Fri, 02 Sep 2016 21:11:25 GMT
     Age:
-    - '0'
+    - '735'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Sep 2016 12:28:01 GMT
+recorded_at: Fri, 02 Sep 2016 21:11:26 GMT
