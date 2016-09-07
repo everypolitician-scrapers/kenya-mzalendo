@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 06 Sep 2016 06:45:27 GMT
+    - Wed, 07 Sep 2016 10:26:35 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 06 Sep 2016 06:25:27 GMT
+    - Wed, 07 Sep 2016 10:06:35 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/ken-obura-mirenga/
     Content-Length:
-    - '6827'
+    - '6746'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 06 Sep 2016 06:25:27 GMT
+    - Wed, 07 Sep 2016 10:06:35 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 06 Sep 2016 06:25:28 GMT
+recorded_at: Wed, 07 Sep 2016 10:06:35 GMT
