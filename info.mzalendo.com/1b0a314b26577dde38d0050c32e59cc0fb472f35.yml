@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 08 Sep 2016 02:24:52 GMT
+    - Fri, 09 Sep 2016 20:59:28 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 08 Sep 2016 02:04:52 GMT
+    - Fri, 09 Sep 2016 20:39:28 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/athanas-wamunyinyi/
     Content-Length:
-    - '6951'
+    - '7112'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 08 Sep 2016 02:04:52 GMT
+    - Fri, 09 Sep 2016 20:39:28 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 08 Sep 2016 02:04:52 GMT
+recorded_at: Fri, 09 Sep 2016 20:39:28 GMT
