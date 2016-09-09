@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 08 Sep 2016 01:21:13 GMT
+    - Fri, 09 Sep 2016 19:48:32 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 08 Sep 2016 01:01:13 GMT
+    - Fri, 09 Sep 2016 19:28:32 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/ababu-namwamba/
     Content-Length:
-    - '7070'
+    - '7226'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 08 Sep 2016 01:01:13 GMT
+    - Fri, 09 Sep 2016 19:36:18 GMT
     Age:
-    - '0'
+    - '467'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 08 Sep 2016 01:01:13 GMT
+recorded_at: Fri, 09 Sep 2016 19:36:19 GMT
