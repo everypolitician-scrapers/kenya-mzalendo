@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 08 Sep 2016 05:29:21 GMT
+    - Fri, 09 Sep 2016 23:46:45 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 08 Sep 2016 05:09:21 GMT
+    - Fri, 09 Sep 2016 23:26:45 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/john-lodepe-nakara/
     Content-Length:
-    - '6937'
+    - '7092'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 08 Sep 2016 05:09:21 GMT
+    - Fri, 09 Sep 2016 23:26:45 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 08 Sep 2016 05:09:21 GMT
+recorded_at: Fri, 09 Sep 2016 23:26:45 GMT
