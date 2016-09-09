@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 08 Sep 2016 01:54:31 GMT
+    - Fri, 09 Sep 2016 20:36:16 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 08 Sep 2016 01:34:31 GMT
+    - Fri, 09 Sep 2016 20:16:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/charles-gumini-gimose/
     Content-Length:
-    - '6901'
+    - '7060'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 08 Sep 2016 01:41:27 GMT
+    - Fri, 09 Sep 2016 20:16:16 GMT
     Age:
-    - '416'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 08 Sep 2016 01:41:27 GMT
+recorded_at: Fri, 09 Sep 2016 20:16:16 GMT
