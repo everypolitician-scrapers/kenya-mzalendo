@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Mon, 26 Sep 2016 07:05:22 GMT
+    - Tue, 25 Oct 2016 03:12:16 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Mon, 26 Sep 2016 06:45:22 GMT
+    - Tue, 25 Oct 2016 02:52:16 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/john-waluke-koyi/
     Content-Length:
-    - '6895'
+    - '7504'
     Accept-Ranges:
     - bytes
     Date:
-    - Mon, 26 Sep 2016 07:04:16 GMT
+    - Tue, 25 Oct 2016 02:52:16 GMT
     Age:
-    - '1134'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 26 Sep 2016 07:04:16 GMT
+recorded_at: Tue, 25 Oct 2016 02:52:16 GMT
