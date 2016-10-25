@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Mon, 26 Sep 2016 06:28:37 GMT
+    - Tue, 25 Oct 2016 02:13:30 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Mon, 26 Sep 2016 06:08:37 GMT
+    - Tue, 25 Oct 2016 01:53:30 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/sabina-wanjiru-chege/
     Content-Length:
-    - '7271'
+    - '7819'
     Accept-Ranges:
     - bytes
     Date:
-    - Mon, 26 Sep 2016 06:08:39 GMT
+    - Tue, 25 Oct 2016 01:53:30 GMT
     Age:
-    - '2'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 26 Sep 2016 06:08:39 GMT
+recorded_at: Tue, 25 Oct 2016 01:53:30 GMT
