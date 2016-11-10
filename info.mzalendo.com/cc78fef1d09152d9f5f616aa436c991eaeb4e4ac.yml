@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 09 Nov 2016 06:10:46 GMT
+    - Thu, 10 Nov 2016 14:43:44 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 09 Nov 2016 05:50:46 GMT
+    - Thu, 10 Nov 2016 14:23:44 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/jackson-kiptanui/
     Content-Length:
-    - '7804'
+    - '7805'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 09 Nov 2016 05:55:51 GMT
+    - Thu, 10 Nov 2016 14:23:44 GMT
     Age:
-    - '304'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 09 Nov 2016 05:55:51 GMT
+recorded_at: Thu, 10 Nov 2016 14:23:44 GMT
