@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 09 Nov 2016 07:14:08 GMT
+    - Thu, 10 Nov 2016 15:40:57 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 09 Nov 2016 06:54:08 GMT
+    - Thu, 10 Nov 2016 15:20:57 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/harrison-kombe/
     Content-Length:
-    - '7642'
+    - '7643'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 09 Nov 2016 06:54:08 GMT
+    - Thu, 10 Nov 2016 15:20:57 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 09 Nov 2016 06:54:08 GMT
+recorded_at: Thu, 10 Nov 2016 15:20:57 GMT
