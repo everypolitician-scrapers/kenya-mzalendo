@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Wed, 09 Nov 2016 08:59:24 GMT
+    - Thu, 10 Nov 2016 17:33:59 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Wed, 09 Nov 2016 08:39:24 GMT
+    - Thu, 10 Nov 2016 17:13:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/james-ndungu-gethenji/
     Content-Length:
-    - '7657'
+    - '7658'
     Accept-Ranges:
     - bytes
     Date:
-    - Wed, 09 Nov 2016 08:39:24 GMT
+    - Thu, 10 Nov 2016 17:13:59 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Wed, 09 Nov 2016 08:39:24 GMT
+recorded_at: Thu, 10 Nov 2016 17:14:00 GMT
