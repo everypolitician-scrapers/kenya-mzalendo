@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 17 Nov 2016 21:02:42 GMT
+    - Sat, 19 Nov 2016 14:23:52 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 17 Nov 2016 20:42:42 GMT
+    - Sat, 19 Nov 2016 14:03:52 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /organisation/narc-k/
     Content-Length:
-    - '6866'
+    - '6865'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 17 Nov 2016 20:42:42 GMT
+    - Sat, 19 Nov 2016 14:03:52 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 17 Nov 2016 20:42:42 GMT
+recorded_at: Sat, 19 Nov 2016 14:03:52 GMT
