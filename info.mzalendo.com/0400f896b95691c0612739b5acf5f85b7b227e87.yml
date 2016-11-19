@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 17 Nov 2016 20:00:12 GMT
+    - Sat, 19 Nov 2016 13:26:59 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 17 Nov 2016 19:40:12 GMT
+    - Sat, 19 Nov 2016 13:06:59 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/mahbub-fathia/
     Content-Length:
-    - '7563'
+    - '7562'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 17 Nov 2016 19:40:12 GMT
+    - Sat, 19 Nov 2016 13:07:13 GMT
     Age:
-    - '0'
+    - '13'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 17 Nov 2016 19:40:12 GMT
+recorded_at: Sat, 19 Nov 2016 13:07:13 GMT
