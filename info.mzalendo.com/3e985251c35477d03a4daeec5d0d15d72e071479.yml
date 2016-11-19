@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Fri, 18 Nov 2016 10:58:37 GMT
+    - Sat, 19 Nov 2016 12:01:23 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Fri, 18 Nov 2016 10:38:37 GMT
+    - Sat, 19 Nov 2016 11:41:23 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/benard-masaka-shinali/
     Content-Length:
-    - '7602'
+    - '7601'
     Accept-Ranges:
     - bytes
     Date:
-    - Fri, 18 Nov 2016 10:53:20 GMT
+    - Sat, 19 Nov 2016 11:41:23 GMT
     Age:
-    - '883'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 18 Nov 2016 10:53:20 GMT
+recorded_at: Sat, 19 Nov 2016 11:41:23 GMT
