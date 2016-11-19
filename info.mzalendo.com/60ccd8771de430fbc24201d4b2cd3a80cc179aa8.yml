@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 17 Nov 2016 19:45:36 GMT
+    - Sat, 19 Nov 2016 13:10:29 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 17 Nov 2016 19:25:36 GMT
+    - Sat, 19 Nov 2016 12:50:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/john-kiragu-chege/
     Content-Length:
-    - '7670'
+    - '7690'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 17 Nov 2016 19:25:36 GMT
+    - Sat, 19 Nov 2016 12:54:09 GMT
     Age:
-    - '0'
+    - '220'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 17 Nov 2016 19:25:37 GMT
+recorded_at: Sat, 19 Nov 2016 12:54:09 GMT
