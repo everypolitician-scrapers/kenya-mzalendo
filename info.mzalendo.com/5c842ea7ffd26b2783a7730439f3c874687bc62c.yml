@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 17 Nov 2016 20:02:20 GMT
+    - Sat, 19 Nov 2016 13:21:51 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 17 Nov 2016 19:42:20 GMT
+    - Sat, 19 Nov 2016 13:01:51 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/mohamed-adan-huka/
     Content-Length:
-    - '7554'
+    - '7553'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 17 Nov 2016 19:42:20 GMT
+    - Sat, 19 Nov 2016 13:10:43 GMT
     Age:
-    - '0'
+    - '532'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 17 Nov 2016 19:42:20 GMT
+recorded_at: Sat, 19 Nov 2016 13:10:43 GMT
