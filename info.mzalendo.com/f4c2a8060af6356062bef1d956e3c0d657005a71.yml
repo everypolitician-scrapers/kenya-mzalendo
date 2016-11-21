@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 20 Nov 2016 15:20:55 GMT
+    - Mon, 21 Nov 2016 10:24:09 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 20 Nov 2016 15:00:55 GMT
+    - Mon, 21 Nov 2016 10:04:09 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/robert-pukose/
     Content-Length:
-    - '7755'
+    - '7747'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 20 Nov 2016 15:08:28 GMT
+    - Mon, 21 Nov 2016 10:04:09 GMT
     Age:
-    - '453'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 20 Nov 2016 15:08:28 GMT
+recorded_at: Mon, 21 Nov 2016 10:04:10 GMT
