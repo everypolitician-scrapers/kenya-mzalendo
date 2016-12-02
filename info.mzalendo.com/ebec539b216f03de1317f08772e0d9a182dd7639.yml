@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 01 Dec 2016 19:32:15 GMT
+    - Fri, 02 Dec 2016 22:30:46 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 01 Dec 2016 19:12:15 GMT
+    - Fri, 02 Dec 2016 22:10:46 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/cecilia-chelangat-ngetich/
     Content-Length:
-    - '7769'
+    - '7703'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 01 Dec 2016 19:12:15 GMT
+    - Fri, 02 Dec 2016 22:10:46 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 01 Dec 2016 19:12:15 GMT
+recorded_at: Fri, 02 Dec 2016 22:10:46 GMT
