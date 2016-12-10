@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Fri, 09 Dec 2016 14:29:54 GMT
+    - Sat, 10 Dec 2016 21:19:29 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Fri, 09 Dec 2016 14:09:54 GMT
+    - Sat, 10 Dec 2016 20:59:29 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/aden-duale/
     Content-Length:
-    - '8256'
+    - '8271'
     Accept-Ranges:
     - bytes
     Date:
-    - Fri, 09 Dec 2016 14:09:54 GMT
+    - Sat, 10 Dec 2016 21:18:29 GMT
     Age:
-    - '0'
+    - '1140'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 09 Dec 2016 14:09:54 GMT
+recorded_at: Sat, 10 Dec 2016 21:18:29 GMT
