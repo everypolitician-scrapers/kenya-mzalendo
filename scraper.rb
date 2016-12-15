@@ -107,12 +107,4 @@ def scrape_person(url)
   ScraperWiki.save_sqlite([:id, :term], data)
 end
 
-term = {
-  id: '11',
-  name: '11th Parliament',
-  start_date: '2013-03-28',
-  source: 'https://en.wikipedia.org/wiki/11th_Parliament_of_Kenya',
-}
-ScraperWiki.save_sqlite([:id], term, 'terms')
-
 scrape_list('http://info.mzalendo.com/position/member-national-assembly/governmental/parliament/?session=na2013')
