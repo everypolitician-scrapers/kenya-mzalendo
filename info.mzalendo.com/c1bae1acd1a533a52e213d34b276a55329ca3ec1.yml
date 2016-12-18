@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Thu, 15 Dec 2016 21:31:19 GMT
+    - Sun, 18 Dec 2016 17:30:13 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Thu, 15 Dec 2016 21:11:19 GMT
+    - Sun, 18 Dec 2016 17:10:13 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/priscilla-nyokabi-kanyua/
     Content-Length:
-    - '7703'
+    - '7699'
     Accept-Ranges:
     - bytes
     Date:
-    - Thu, 15 Dec 2016 21:24:59 GMT
+    - Sun, 18 Dec 2016 17:10:13 GMT
     Age:
-    - '820'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Thu, 15 Dec 2016 21:24:59 GMT
+recorded_at: Sun, 18 Dec 2016 17:10:13 GMT
