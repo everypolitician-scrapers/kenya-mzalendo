@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 24 Dec 2016 02:33:11 GMT
+    - Sun, 25 Dec 2016 21:08:08 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 24 Dec 2016 02:13:11 GMT
+    - Sun, 25 Dec 2016 20:48:08 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - /person/dalmas-otieno/
     Content-Length:
-    - '7720'
+    - '7697'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 24 Dec 2016 02:29:30 GMT
+    - Sun, 25 Dec 2016 20:48:08 GMT
     Age:
-    - '979'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 24 Dec 2016 02:29:30 GMT
+recorded_at: Sun, 25 Dec 2016 20:48:08 GMT
