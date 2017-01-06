@@ -2,17 +2,12 @@
 # encoding: utf-8
 # frozen_string_literal: true
 
-require 'scraperwiki'
-require 'nokogiri'
-require 'open-uri'
-require 'cgi'
-require 'json'
 require 'date'
+require 'scraped'
+require 'scraperwiki'
 
-require 'pry'
-require 'open-uri/cached'
-OpenURI::Cache.cache_path = '.cache'
-
+# require 'open-uri/cached'
+# OpenURI::Cache.cache_path = '.cache'
 require 'scraped_page_archive/open-uri'
 
 def noko_for(url)
@@ -37,7 +32,6 @@ end
 
 def scrape_experience(url)
   noko = noko_for(url)
-
   experience = noko.xpath('.//section/h3[contains(.,"Previous Political Positions")]/following-sibling::ul[1]')
   member_element = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]')
   date_and_area = member_element.xpath('.//following-sibling::p[1]')
