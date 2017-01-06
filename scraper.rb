@@ -40,7 +40,7 @@ def scrape_experience(url)
   experience = noko.xpath('.//section/h3[contains(.,"Previous Political Positions")]/following-sibling::ul[1]')
   member_element = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]')
   date_and_area = member_element.xpath('.//following-sibling::p[1]')
-  start_text, end_text = date_and_area.text.match(/(.*)\s*→\s*(.*)/).captures rescue start_text, end_text = ['', '']
+  start_text, end_text = date_and_area.text.match(/(.*)\s*→\s*(.*)/).captures rescue binding.pry
   return date_from(start_text), date_from(end_text), date_and_area.css('a')
 end
 
@@ -56,7 +56,8 @@ def scrape_person(url)
     type = noko_org.css('div.object-titles p').text == 'Political Party'
   }
   party_info = party_node ? party_node.text.strip : 'Independent (IND)'
-  party, party_id = party_info.match(/(.*) \((.*)\)/).captures rescue party, party_id = [party_info, nil]
+  party_data = party_info.match(/(.*) \((.*)\)/)
+  party, party_id = party_data ? party_data.captures : [party_info, nil]
 
   experience = noko.css('div.person-detail-experience')
   member_element = experience.css('li.position').xpath('.//h4[contains(.,"Member of the National Assembly")]')
