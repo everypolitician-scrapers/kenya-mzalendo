@@ -9,7 +9,7 @@ request:
     Accept-Encoding:
     - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
     Accept:
-    - '*/*'
+    - "*/*"
     User-Agent:
     - Ruby
 response:
@@ -28,7 +28,7 @@ response:
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
-    - /person/mary-emaase-otuch/
+    - "/person/mary-emaase-otuch/"
     Content-Length:
     - '7547'
     Accept-Ranges:
