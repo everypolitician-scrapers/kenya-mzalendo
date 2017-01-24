@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 17 Jan 2017 16:22:29 GMT
+    - Tue, 24 Jan 2017 13:19:23 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 17 Jan 2017 16:02:29 GMT
+    - Tue, 24 Jan 2017 12:59:23 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/michael-aringo-onyura/"
     Content-Length:
-    - '7552'
+    - '7548'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 17 Jan 2017 16:02:29 GMT
+    - Tue, 24 Jan 2017 13:01:57 GMT
     Age:
-    - '0'
+    - '155'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 17 Jan 2017 16:02:29 GMT
+recorded_at: Tue, 24 Jan 2017 13:01:58 GMT
