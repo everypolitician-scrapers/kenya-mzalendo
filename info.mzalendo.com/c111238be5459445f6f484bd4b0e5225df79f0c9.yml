@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Fri, 27 Jan 2017 17:01:12 GMT
+    - Mon, 30 Jan 2017 13:53:07 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Fri, 27 Jan 2017 16:41:12 GMT
+    - Mon, 30 Jan 2017 13:33:07 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/irungu-kangata/"
     Content-Length:
-    - '7574'
+    - '7530'
     Accept-Ranges:
     - bytes
     Date:
-    - Fri, 27 Jan 2017 16:41:12 GMT
+    - Mon, 30 Jan 2017 13:37:07 GMT
     Age:
-    - '0'
+    - '240'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 27 Jan 2017 16:41:12 GMT
+recorded_at: Mon, 30 Jan 2017 13:37:07 GMT
