@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 04 Feb 2017 03:05:39 GMT
+    - Sat, 04 Feb 2017 13:34:36 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 04 Feb 2017 02:45:39 GMT
+    - Sat, 04 Feb 2017 13:14:36 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/jared-odhiambo-opiyo/"
     Content-Length:
-    - '7688'
+    - '7690'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 04 Feb 2017 02:45:39 GMT
+    - Sat, 04 Feb 2017 13:31:25 GMT
     Age:
-    - '0'
+    - '1009'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 04 Feb 2017 02:45:39 GMT
+recorded_at: Sat, 04 Feb 2017 13:31:26 GMT
