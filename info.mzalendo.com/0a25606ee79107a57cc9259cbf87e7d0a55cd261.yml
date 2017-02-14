@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sun, 05 Feb 2017 13:00:35 GMT
+    - Tue, 14 Feb 2017 05:49:48 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sun, 05 Feb 2017 12:40:35 GMT
+    - Tue, 14 Feb 2017 05:29:48 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/nelson-gaichuhie/"
     Content-Length:
-    - '7615'
+    - '7568'
     Accept-Ranges:
     - bytes
     Date:
-    - Sun, 05 Feb 2017 12:40:35 GMT
+    - Tue, 14 Feb 2017 05:48:55 GMT
     Age:
-    - '0'
+    - '1147'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sun, 05 Feb 2017 12:40:35 GMT
+recorded_at: Tue, 14 Feb 2017 05:48:55 GMT
