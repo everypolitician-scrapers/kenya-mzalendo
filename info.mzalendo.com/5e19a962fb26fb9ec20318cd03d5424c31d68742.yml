@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Fri, 24 Feb 2017 05:51:50 GMT
+    - Sat, 25 Feb 2017 07:37:12 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Fri, 24 Feb 2017 05:31:50 GMT
+    - Sat, 25 Feb 2017 07:17:12 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/johnson-arthur-sakaja/"
     Content-Length:
-    - '7808'
+    - '7847'
     Accept-Ranges:
     - bytes
     Date:
-    - Fri, 24 Feb 2017 05:31:50 GMT
+    - Sat, 25 Feb 2017 07:17:12 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 24 Feb 2017 05:31:50 GMT
+recorded_at: Sat, 25 Feb 2017 07:17:13 GMT
