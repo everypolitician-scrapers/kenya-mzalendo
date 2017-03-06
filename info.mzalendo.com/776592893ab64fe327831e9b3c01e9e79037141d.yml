@@ -34,12 +34,12 @@ response:
     Accept-Ranges:
     - bytes
     Date:
-    - Mon, 06 Mar 2017 09:00:41 GMT
+    - Mon, 06 Mar 2017 09:10:36 GMT
     Age:
-    - '78'
+    - '673'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Mon, 06 Mar 2017 09:00:41 GMT
+recorded_at: Mon, 06 Mar 2017 09:10:36 GMT
