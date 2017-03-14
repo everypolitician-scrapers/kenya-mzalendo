@@ -18,13 +18,13 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 14 Mar 2017 14:00:46 GMT
+    - Tue, 14 Mar 2017 19:14:08 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 14 Mar 2017 13:40:46 GMT
+    - Tue, 14 Mar 2017 18:54:08 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
@@ -34,12 +34,12 @@ response:
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 14 Mar 2017 13:42:30 GMT
+    - Tue, 14 Mar 2017 18:54:08 GMT
     Age:
-    - '103'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 14 Mar 2017 13:42:30 GMT
+recorded_at: Tue, 14 Mar 2017 18:54:08 GMT
