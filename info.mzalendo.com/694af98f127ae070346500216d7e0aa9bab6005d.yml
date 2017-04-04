@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Fri, 31 Mar 2017 17:57:14 GMT
+    - Tue, 04 Apr 2017 14:30:00 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Fri, 31 Mar 2017 17:37:14 GMT
+    - Tue, 04 Apr 2017 14:10:00 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/francis-waweru-nderitu/"
     Content-Length:
-    - '7558'
+    - '7557'
     Accept-Ranges:
     - bytes
     Date:
-    - Fri, 31 Mar 2017 17:56:15 GMT
+    - Tue, 04 Apr 2017 14:10:00 GMT
     Age:
-    - '1141'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Fri, 31 Mar 2017 17:56:15 GMT
+recorded_at: Tue, 04 Apr 2017 14:10:00 GMT
