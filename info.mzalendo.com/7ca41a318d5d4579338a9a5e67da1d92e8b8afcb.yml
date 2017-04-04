@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 01 Apr 2017 19:27:31 GMT
+    - Tue, 04 Apr 2017 09:15:13 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 01 Apr 2017 19:07:31 GMT
+    - Tue, 04 Apr 2017 08:55:13 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/peter-baiya/"
     Content-Length:
-    - '7868'
+    - '7867'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 01 Apr 2017 19:21:26 GMT
+    - Tue, 04 Apr 2017 08:55:13 GMT
     Age:
-    - '835'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 01 Apr 2017 19:21:26 GMT
+recorded_at: Tue, 04 Apr 2017 08:55:13 GMT
