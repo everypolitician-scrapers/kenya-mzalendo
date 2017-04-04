@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 01 Apr 2017 18:42:54 GMT
+    - Tue, 04 Apr 2017 08:11:41 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 01 Apr 2017 18:22:54 GMT
+    - Tue, 04 Apr 2017 07:51:41 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/organisation/apk/"
     Content-Length:
-    - '6591'
+    - '6590'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 01 Apr 2017 18:30:23 GMT
+    - Tue, 04 Apr 2017 07:51:41 GMT
     Age:
-    - '449'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 01 Apr 2017 18:30:23 GMT
+recorded_at: Tue, 04 Apr 2017 07:51:41 GMT
