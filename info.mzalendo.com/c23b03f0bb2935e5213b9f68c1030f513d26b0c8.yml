@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 01 Apr 2017 18:46:03 GMT
+    - Tue, 04 Apr 2017 08:18:25 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 01 Apr 2017 18:26:03 GMT
+    - Tue, 04 Apr 2017 07:58:25 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/onesmus-muthomi-njuki/"
     Content-Length:
-    - '7520'
+    - '7519'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 01 Apr 2017 18:29:49 GMT
+    - Tue, 04 Apr 2017 07:58:25 GMT
     Age:
-    - '226'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 01 Apr 2017 18:29:49 GMT
+recorded_at: Tue, 04 Apr 2017 07:58:25 GMT
