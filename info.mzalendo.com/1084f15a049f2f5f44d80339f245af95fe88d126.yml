@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 01 Apr 2017 20:38:15 GMT
+    - Tue, 04 Apr 2017 07:34:33 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 01 Apr 2017 20:18:15 GMT
+    - Tue, 04 Apr 2017 07:14:33 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/organisation/kanu/"
     Content-Length:
-    - '7795'
+    - '7794'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 01 Apr 2017 20:18:15 GMT
+    - Tue, 04 Apr 2017 07:14:33 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 01 Apr 2017 20:18:15 GMT
+recorded_at: Tue, 04 Apr 2017 07:14:33 GMT
