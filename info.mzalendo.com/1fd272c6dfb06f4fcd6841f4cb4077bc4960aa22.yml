@@ -18,28 +18,28 @@ response:
     message: OK
   headers:
     Expires:
-    - Sat, 08 Apr 2017 18:33:50 GMT
+    - Sun, 09 Apr 2017 22:51:41 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Sat, 08 Apr 2017 18:13:50 GMT
+    - Sun, 09 Apr 2017 22:31:41 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/samuel-mathenge-ndiritu/"
     Content-Length:
-    - '7601'
+    - '7599'
     Accept-Ranges:
     - bytes
     Date:
-    - Sat, 08 Apr 2017 18:31:04 GMT
+    - Sun, 09 Apr 2017 22:31:41 GMT
     Age:
-    - '1034'
+    - '0'
     Connection:
     - keep-alive
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Sat, 08 Apr 2017 18:31:04 GMT
+recorded_at: Sun, 09 Apr 2017 22:31:41 GMT
