@@ -18,23 +18,23 @@ response:
     message: OK
   headers:
     Expires:
-    - Tue, 11 Apr 2017 01:58:12 GMT
+    - Wed, 12 Apr 2017 15:43:36 GMT
     Vary:
     - Cookie,Accept-Encoding
     Cache-Control:
     - max-age=1200
     Last-Modified:
-    - Tue, 11 Apr 2017 01:38:12 GMT
+    - Wed, 12 Apr 2017 15:23:36 GMT
     Content-Type:
     - text/html; charset=utf-8
     X-Url:
     - "/person/asman-kamama/"
     Content-Length:
-    - '7868'
+    - '7833'
     Accept-Ranges:
     - bytes
     Date:
-    - Tue, 11 Apr 2017 01:38:12 GMT
+    - Wed, 12 Apr 2017 15:23:36 GMT
     Age:
     - '0'
     Connection:
@@ -42,4 +42,4 @@ response:
   body:
     encoding: ASCII-8BIT
   http_version: 
-recorded_at: Tue, 11 Apr 2017 01:38:12 GMT
+recorded_at: Wed, 12 Apr 2017 15:23:36 GMT
