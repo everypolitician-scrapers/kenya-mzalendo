@@ -103,5 +103,5 @@ def scrape_person(url)
   ScraperWiki.save_sqlite(%i(id term), data)
 end
 
-ScraperWiki.sqliteexecute('DELETE FROM data') rescue nil
+ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
 scrape_list('http://info.mzalendo.com/position/member-national-assembly/governmental/parliament/?session=na2013')
