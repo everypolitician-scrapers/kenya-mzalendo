@@ -100,7 +100,7 @@ def scrape_person(url)
   }
   data[:image] = URI.join(url, data[:image]).to_s unless data[:image].to_s.empty?
   data[:alternate_names] = alt_name unless alt_name.to_s.empty?
-  ScraperWiki.save_sqlite(%i(id term), data)
+  ScraperWiki.save_sqlite(%i[id term], data)
 end
 
 ScraperWiki.sqliteexecute('DROP TABLE data') rescue nil
